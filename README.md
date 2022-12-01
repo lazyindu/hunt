@@ -7,7 +7,7 @@
 
 ## ⚡️Features
 
-- [x] Auto Filter URL from Your Databases Channel
+- [x] Auto Filters URL from Your Databases Channel
 - [x] Manual Filter
 - [x] Admin Commands
 - [x] Broadcast
