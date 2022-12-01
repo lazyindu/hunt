@@ -14,9 +14,9 @@ COPY requirements.txt /requirements.txt
 # Installing Requirements
 RUN cd /
 RUN pip3 install -r requirements.txt
-RUN mkdir /LazyUrlHunterrBOT
-WORKDIR /LazyUrlHunterrBOT
+RUN mkdir /hunter
+WORKDIR /hunter
 COPY start.sh /start.sh
 
-# Running MessageSearchBot
+# Running hunterr
 CMD ["/bin/bash", "/start.sh"]
